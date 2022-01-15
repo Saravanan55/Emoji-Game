@@ -14,7 +14,7 @@ const NavBar = props => {
         <h1 className="heading">Emoji Game</h1>
       </div>
       {isGameInProgress && (
-        <div className="scores-section">
+        <div className="score-section">
           <p className="score">Score: {currentScore}</p>
           <p className="score">Top Score: {topScore}</p>
         </div>
